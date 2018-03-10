@@ -12,12 +12,12 @@ Commenting out Assets/TestA.cs  override of OnDeserialize works, uncommenting it
 
 
 Reproduce steps:
-Tested on: Unity2017.3.1p1, Mac
+Tested on: Unity2017.3.1p1, Mac 
 
-Open project
-Open Main6 scene
-Build and run to android (tested on Android 6.0)
-Press play in the editor.
+Open project 
+Open Main6 scene 
+Build and run to android (tested on Android 6.0) 
+Press play in the editor. 
 
 
 Minimized Fail Case:
