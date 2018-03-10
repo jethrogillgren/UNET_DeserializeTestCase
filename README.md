@@ -2,6 +2,7 @@ Test case for a UNET bug
 
 Commenting out Assets/TestA.cs  override of OnDeserialize works, uncommenting it fails.
 
+```C#
 
 		public override void OnDeserialize(NetworkReader reader, bool initialState)
 		{
