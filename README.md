@@ -19,6 +19,8 @@ Press play in the editor.
 
 
 Minimized Fail Case:
+```
+
 		03-10 11:08:15.783 28614 28626 I Unity   : // Starting as CLient                                                                                                           │
 		03-10 11:08:26.000 28614 28626 I Unity   : // NetworkManager OnReceivedBroadcast from ::ffff:192.168.0.2 of HELLO                                                          │
 		03-10 11:08:26.068 28614 28626 E Unity   : host id out of bound id {-1} max id should be greater 0 and less than {1}                                                       │
@@ -31,6 +33,7 @@ Minimized Fail Case:
 		03-10 11:08:28.985 28614 28626 I Unity   : // A ClientRPC called by server OK.  NetId: 1                                                                                   │
 		03-10 11:08:29.570 28614 28626 I Unity   : // TestA: A -> default   
 		...
+```
 
 Minimized Pass Case:
 03-10 11:10:29.412 28912 28941 I Unity   : // Starting as CLient                                                                                                           │
