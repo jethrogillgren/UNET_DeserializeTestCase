@@ -36,6 +36,8 @@ Minimized Fail Case:
 ```
 
 Minimized Pass Case:
+```
+
 03-10 11:10:29.412 28912 28941 I Unity   : // Starting as CLient                                                                                                           │
 03-10 11:11:12.700 28912 28941 I Unity   : // NetworkManager OnReceivedBroadcast from ::ffff:192.168.0.2 of HELLO                                                          ┤
 03-10 11:11:12.761 28912 28941 E Unity   : host id out of bound id {-1} max id should be greater 0 and less than {1}                                                       │
@@ -48,6 +50,7 @@ Minimized Pass Case:
 ...
 03-10 11:11:17.659 28912 28941 I Unity   : // A ClientRPC called by server OK.  NetId: 1                                                                                   ┤
 03-10 11:11:18.009 28912 28941 I Unity   : // TestA: A -> 201  
+```
 
 
 
@@ -55,6 +58,7 @@ Minimized Pass Case:
 
 
 Full logs (NetMan log lv Developer) of fail case:
+```
 03-10 11:14:01.325 29394 29406 I Unity   : NetworkManager created singleton (DontDestroyOnLoad)                                                                            │
 03-10 11:14:01.325 29394 29406 I Unity   :                                                                                                                                 │
 03-10 11:14:01.325 29394 29406 I Unity   : (Filename: /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)           │
@@ -351,4 +355,6 @@ Full logs (NetMan log lv Developer) of fail case:
 03-10 11:14:24.781 29394 29406 I Unity   :                                                                                                                                 │
 03-10 11:14:24.781 29394 29406 I Unity   : (Filename: /Users/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)           ┤
 03-10 11:14:24.781 29394 29406 I Unity   :                                                                                                                                 │
-03-10 11:14:25.097 29394 29406 I Unity   : // TestA: A -> default     
+03-10 11:14:25.097 29394 29406 I Unity   : // TestA: A -> default    
+```
+ 
