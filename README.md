@@ -8,6 +8,7 @@ Commenting out Assets/TestA.cs  override of OnDeserialize works, uncommenting it
 		{
 			base.OnDeserialize(reader, initialState);
 		}
+```
 
 
 Reproduce steps:
